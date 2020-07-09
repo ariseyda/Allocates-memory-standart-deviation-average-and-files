@@ -50,7 +50,7 @@ int main(){
 	fprintf(f,"\nSum of numbers:%d\nAverage of numbers:%.2f\nDeviation:%.2f",sum,avrg,deviation);
 	
 	fclose(f);
-
+	free(p);
 	return 0;
 }
  
